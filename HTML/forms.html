@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>This is Form</h2>
+    <form action="backend.php">
+        <label for="fname">First Name</label>
+        <div>
+            <input type="text" name="fname" id="fname">
+        </div>
+        <br>
+        <label for="lname">Last Name</label>
+        <div>
+            <input type="text" name="lname" id="lname">
+        </div>
+        <br>
+        <label for="mail">Email</label>
+        <div>
+            <input type="email" name="myemail" id="mail">
+        </div>
+        <br> 
+        <div>
+            <label for="class">Standard</label>
+            <select name="Standard" id="class">
+                <option value="9">Ninth</option>
+                <option value="10">High School</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <div>
+                Date: <input type="date" name="mydate">
+            </div>
+            <br>
+            <div>
+                Bonus: <input type="number" name="myBonus">
+            </div>
+            <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myeligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="mygender">
+                    Female <input type="radio" name="mygender"> 
+                    Other <input type="radio" name="mygender">  
+        </div>
+        <br>
+        <div>
+            Write About Yourself:<br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        </div>
+             <input type="Submit" value="Submit"> <input type="Reset" reset="Reset">
+
+        </div>
+        
+
+    
+        
+    </form>
+</body>
+
+</html>
